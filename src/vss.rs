@@ -2,7 +2,6 @@
 use num_bigint::{BigUint, RandBigInt};
 use num_traits::{One, Zero};
 use rand::thread_rng;
-use std::ops::Mul;
 
 #[derive(Clone, Debug)]
 pub struct Share {
